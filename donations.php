@@ -1,6 +1,6 @@
 <?php
 /*
- Plugin Name: Donations
+ Plugin Name: Donations Widget
  Plugin URI: http://mohanjith.com/wordpress/donations.html
  Description: Accept donations from your readers via AlertPay, Moneybookers and/or PayPal.
  Author: S H Mohanjith
