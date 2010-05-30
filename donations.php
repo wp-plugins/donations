@@ -4,7 +4,7 @@
  Plugin URI: http://mohanjith.com/wordpress/donations.html
  Description: Accept donations from your readers via AlertPay, Moneybookers and/or PayPal.
  Author: S H Mohanjith
- Version: 1.0.0
+ Version: 1.0.1
  Author URI: http://mohanjith.com/
  Text Domain: donations
  License: GPL

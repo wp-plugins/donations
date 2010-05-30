@@ -3,7 +3,7 @@ Contributors: mohanjith
 Tags: donations, widget, paypal, moneybookers, alertpay
 Requires at least: 2.8
 Stable tag: trunk
-Tested up to: 2.9.2
+Tested up to: 3.0.0
 Donate link: http://mohanjith.com/c/wordpress
 
 Accept donations from your readers via AlertPay, Moneybookers and/or PayPal.
@@ -24,6 +24,10 @@ You can select which payment options to allow in the widget configuration page.
 PHP 5+
 
 == ChangeLog ==
+
+**Version 1.0.0**
+
+* Compatibility with WordPress 3.0
 
 **Version 0.1.0**
 
