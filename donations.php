@@ -4,7 +4,7 @@
  Plugin URI: http://mohanjith.com/wordpress/donations.html
  Description: Accept donations from your readers via AlertPay, Moneybookers and/or PayPal.
  Author: S H Mohanjith
- Version: 1.0.1
+ Version: 1.0.2
  Author URI: http://mohanjith.com/
  Text Domain: donations
  License: GPL
@@ -104,7 +104,7 @@ class Donations {
 		
 		if (!empty($alertpay_email)) {
 			?>
-			<p><form method="post" action="https://www.alertpay.com/PayProcess.aspx" target="_blank" >
+			<p><form method="post" action="https://www.alertpay.com/PayProcess.aspx" target="_blank" class="payment_form alertpay" >
 				<input type="hidden" name="ap_purchasetype" value="item"/>
 				<input type="hidden" name="ap_merchant" value="<?php print $alertpay_email; ?>"/>
 				<input type="hidden" name="ap_itemname" value="<?php print $item_name; ?>"/>
@@ -120,7 +120,7 @@ class Donations {
 		
 		if (!empty($moneybookers_email)) {
 			?>
-			<p></o><form action="https://www.moneybookers.com/app/payment.pl" method="post" target="_blank" >
+			<p></o><form action="https://www.moneybookers.com/app/payment.pl" method="post" target="_blank" class="payment_form moneybookers" >
 				<input type="hidden" name="pay_to_email" value="<?php print $moneybookers_email; ?>" />
 				<input type="hidden" name="language" value="EN" />
 				<input type="hidden" name="rid" value="5413099" />
@@ -135,7 +135,7 @@ class Donations {
 		
 		if (!empty($paypal_email)) {
 			?>
-			<p><form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank" >
+			<p><form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank" class="payment_form paypal" >
 				<input type="hidden" name="cmd" value="_donations" />
 				<input type="hidden" name="business" value="<?php print $paypal_email; ?>" />
 				<input type="hidden" name="item_name" value="<?php print $item_name; ?>" />

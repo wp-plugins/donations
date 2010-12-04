@@ -25,6 +25,14 @@ PHP 5+
 
 == ChangeLog ==
 
+**Version 1.0.2**
+
+* Add classes to control styling of payment forms
+
+**Version 1.0.1**
+
+* Compatibility with WordPress 3.0.1
+
 **Version 1.0.0**
 
 * Compatibility with WordPress 3.0
